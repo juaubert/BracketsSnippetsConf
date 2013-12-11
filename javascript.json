@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Function",
+        "trigger": "f",
+        "usage": "f myFunc",
+        "description": "Create a javascript function",
+        "template": "function $${name}() {\n!!{cursor}\n}"
+    },
+    {
+        "name": "Unnamed function",
+        "trigger": "vf",
+        "usage": "vf funcName",
+        "description": "Create a variable assigned to an unnamed function",
+        "template": "var $${name} = function (!!{cursor}) {\n\n}"
+    },
+    {
+        "name": "For Loop",
+        "trigger": "for",
+        "usage": "for someArray",
+        "description": "Create a javascript for loop",
+        "template": "for (var i = 0, n = $${array}.length; i < n; i++) {\n!!{cursor}\n}"
+    }
+]

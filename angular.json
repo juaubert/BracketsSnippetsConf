@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Angular Ctrl",
+        "trigger": "ctrl",
+        "usage": "ctrl",
+        "description": "Create an angular ctrl",
+        "template": "angularCtrl.snippet"
+    }
+]

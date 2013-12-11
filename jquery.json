@@ -1,0 +1,9 @@
+[
+    {
+        "name": "$.each",
+        "trigger": "$each",
+        "usage": "$each someArray",
+        "description": "Create a jQuery iterator function",
+        "template": "$.each($${array}, function(key, value) {\n!!{cursor}\n});"
+    }
+]
