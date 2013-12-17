@@ -1,9 +1,23 @@
 [
     {
         "name": "Angular Ctrl",
-        "trigger": "ctrl",
-        "usage": "ctrl",
+        "trigger": "ngCtrl",
+        "usage": "ngCtrl moduleName ctrlName",
         "description": "Create an angular ctrl",
         "template": "angularCtrl.snippet"
+    },
+    {
+        "name": "Angular Service",
+        "trigger": "ngService",
+        "usage": "ngService serviceName",
+        "description": "Create an angular service",
+        "template": "angularService.snippet"
+    },
+    {
+        "name": "LabeledInput",
+        "trigger": "li",
+        "usage": "li label model",
+        "description": "Create an input with label for angular",
+        "template": "<label for=\"$${label}\">$${label}</label><input id=\"$${label}\" type=\"text\" ng-model=\"$${model}\"/>"
     }
 ]

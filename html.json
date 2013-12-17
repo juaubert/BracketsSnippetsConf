@@ -12,5 +12,19 @@
         "usage": "a index.html home",
         "description": "Create an achor with an href",
         "template": "<a href=\"$${href}\">$${title}</a>"
+    },
+    {
+        "name": "script",
+        "trigger": "script",
+        "usage": "script src",
+        "description": "Import a new JS script",
+        "template": "<script src=\"!!{cursor}\"></script>"
+    },
+    {
+        "name": "table",
+        "trigger": "table",
+        "usage": "table",
+        "description": "Create an empty TABLE",
+        "template": "table.snippet"
     }
 ]
